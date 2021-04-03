@@ -20,17 +20,19 @@
 
 
 
-
-let countDown = function (time) {
+let countDownn = function (time) {
 
     let timer = setInterval(function () {
+
         time--;
+
         if (time <= 0) {
             clearInterval(timer);
-            console.log('Done!');
+            console.log('FinIto!!')
+
         }
         else {
-            console.log(time);
+            console.log(time)
         }
 
 
@@ -47,4 +49,17 @@ let countDown = function (time) {
     }, 1000)
 }
 
-countDown(10)
+countDownn(10)
+
+
+
+
+
+
+
+
+
+//     }, 1000)
+// }
+
+// countDown(10)
